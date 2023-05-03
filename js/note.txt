@@ -1,0 +1,5 @@
+https://mymemory.translated.net/doc/spec.php
+
+https://mymemory.translated.net/doc/usagelimits.php
+
+https://api.mymemory.translated.net/get?q=Hello World!&langpair=en|it

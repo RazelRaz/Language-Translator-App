@@ -1,0 +1,117 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+/* Default CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    background: #fff;
+    width: 690px;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.wrapper {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.wrapper .text_input {
+    display: flex;
+    border-bottom: 1px solid #bbb;
+}
+
+.text_input .to_text {
+    border-left: 1px solid #bbb;
+    border-radius: 0px;
+}
+
+.text_input textarea {
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 15px;
+}
+
+.controls, li, .icons, icons i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls  {
+    list-style: none;
+    padding: 12px 15px;
+}
+
+.controls .row.from .icons{
+    padding-right: 15px;
+    border-right: 1px solid #bbb;
+}
+
+.controls .row.to .icons{
+    padding-left: 15px;
+    border-left: 1px solid #bbb;
+}
+
+
+.controls .icons {
+    width: 38%;
+}
+
+.controls .icons i {
+    color: #d47575;
+    font-size: 14px;
+    cursor: pointer;
+    width: 50px;
+    justify-content: center;
+}
+
+.controls .row select {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+}
+
+.controls .exchange {
+    color: #d47575;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background-color: #e78197;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
